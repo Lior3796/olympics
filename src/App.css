@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #f8f9fa;
+  overflow:hidden;
+  scroll-behavior: smooth;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+

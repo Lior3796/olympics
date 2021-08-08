@@ -1,0 +1,21 @@
+.Topics{
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Topics > span {
+  font-size: .9 rem;
+  flex:1;
+}
+
+.topics-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+.img-topic-container{
+  width: 100%;
+  flex:1;
+}

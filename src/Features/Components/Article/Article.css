@@ -1,0 +1,27 @@
+.StyledArticle{
+    box-shadow: 8px 8px 8px rgb(158, 155, 155);
+    font-family: 'Assistant', sans-serif;
+}
+
+.StyledArticle > div {
+    position: relative;
+}
+.StyledArticle > p{
+    font-weight: 400;
+    font-size: 2.0em;
+}
+.OlympicsLogo{
+    position:absolute;
+    bottom:0;
+    background:white;
+}
+.ArticleContainer{
+    position:relative;
+    display: grid;
+    grid-template-columns: 4fr 3fr ;
+    grid-template-rows: 1fr;
+    grid-gap:50px;
+    width:80%;
+    margin:auto;
+    padding:55px;
+}

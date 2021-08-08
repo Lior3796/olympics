@@ -1,0 +1,15 @@
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+.footer-ul > li {
+ font-weight: 100;
+ height: 20px;
+ font-size:medium;
+ color: white;
+}

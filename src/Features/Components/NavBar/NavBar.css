@@ -1,0 +1,15 @@
+.nav-ul{
+    width:70%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style:none;
+}
+.nav-ul > * {
+    font-weight: 100;
+    font-size:1.3em;
+}
+a {
+    text-decoration: none;
+}
+

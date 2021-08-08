@@ -1,0 +1,17 @@
+.game-card{
+    width:35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:16px;
+}
+
+.game-text{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 1.2;
+    font-size: 1.2em;
+    font-weight: 900;
+}

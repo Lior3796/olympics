@@ -1,0 +1,10 @@
+.container-components{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+@media only screen and (max-width:600px) {
+    li{
+        font-size:20px;
+    }
+    
+}

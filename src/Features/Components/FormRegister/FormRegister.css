@@ -1,0 +1,82 @@
+.Container-form{
+    height: 100vh;
+    width: 100%;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+.FormRegister-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+    font-size: 1.6em;
+    font-weight: 200;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(245, 217, 61),transparent);
+}
+.form > div {
+    padding: 30px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.logo-container{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.logo-container > img {
+    position: absolute;
+    left: 25%;
+    top:25%;
+}
+.form > div > input {
+    background: transparent;
+    font-size: 0.8em;
+    border: none;
+    width: 50%;
+    border-bottom:1px solid black;
+
+}
+.form > div > input:focus{
+    background: none;
+    outline: none;
+}
+.form-button{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 rgb(245, 217, 61);
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 4px;
+    transition: ease-in-out 0.3s;
+    outline: none;
+    font-size: 2rem;
+    font-family:inherit;
+}
+.form-button:hover {
+    box-shadow: inset 200px 0 0 0 rgb(255, 224, 45);
+}
+input[type = "text" i] {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight:inherit;
+
+}
