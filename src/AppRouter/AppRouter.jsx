@@ -39,8 +39,8 @@ function AppRouter() {
                 </Route>
                 <Footer />
 
-                <Route to="https://Lior3796.github.io/olympics">
-                    <Redirect to="/" />
+                <Route to="https://lior3796.github.io/olympics/">
+                    <Redirect to="https://lior3796.github.io" />
                 </Route>
             </Switch>
 
