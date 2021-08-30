@@ -38,7 +38,10 @@ function AppRouter() {
                     <FormRegister />
                 </Route>
                 <Footer />
-                <Redirect to="/" />
+
+                <Route to="https://Lior3796.github.io/olympics">
+                    <Redirect to="/" />
+                </Route>
             </Switch>
 
             <Footer />
