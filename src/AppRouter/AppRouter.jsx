@@ -24,7 +24,7 @@ function AppRouter() {
             <NavBar position />
             <NavBar />
             <Switch >
-                <Route path="/" exact>
+                <Route path="" path="/" exact>
                     <Home />
                     <Content />
                     <OlympicsData />
@@ -39,7 +39,7 @@ function AppRouter() {
                 </Route>
                 <Footer />
 
-                <Route to="https://lior3796.github.io/olympics/">
+                <Route path="https://lior3796.github.io/olympics/">
                     <Redirect to="https://lior3796.github.io" />
                 </Route>
             </Switch>
