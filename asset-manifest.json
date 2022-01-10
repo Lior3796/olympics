@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/olympics/static/css/main.89f803c8.chunk.css",
-    "main.js": "/olympics/static/js/main.991b8871.chunk.js",
-    "main.js.map": "/olympics/static/js/main.991b8871.chunk.js.map",
+    "main.js": "/olympics/static/js/main.b71f98d6.chunk.js",
+    "main.js.map": "/olympics/static/js/main.b71f98d6.chunk.js.map",
     "runtime-main.js": "/olympics/static/js/runtime-main.8b84f198.js",
     "runtime-main.js.map": "/olympics/static/js/runtime-main.8b84f198.js.map",
-    "static/js/2.933d13c3.chunk.js": "/olympics/static/js/2.933d13c3.chunk.js",
-    "static/js/2.933d13c3.chunk.js.map": "/olympics/static/js/2.933d13c3.chunk.js.map",
+    "static/js/2.1abcc7ef.chunk.js": "/olympics/static/js/2.1abcc7ef.chunk.js",
+    "static/js/2.1abcc7ef.chunk.js.map": "/olympics/static/js/2.1abcc7ef.chunk.js.map",
     "static/js/3.f124d45d.chunk.js": "/olympics/static/js/3.f124d45d.chunk.js",
     "static/js/3.f124d45d.chunk.js.map": "/olympics/static/js/3.f124d45d.chunk.js.map",
     "index.html": "/olympics/index.html",
     "static/css/main.89f803c8.chunk.css.map": "/olympics/static/css/main.89f803c8.chunk.css.map",
-    "static/js/2.933d13c3.chunk.js.LICENSE.txt": "/olympics/static/js/2.933d13c3.chunk.js.LICENSE.txt"
+    "static/js/2.1abcc7ef.chunk.js.LICENSE.txt": "/olympics/static/js/2.1abcc7ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8b84f198.js",
-    "static/js/2.933d13c3.chunk.js",
+    "static/js/2.1abcc7ef.chunk.js",
     "static/css/main.89f803c8.chunk.css",
-    "static/js/main.991b8871.chunk.js"
+    "static/js/main.b71f98d6.chunk.js"
   ]
 }
