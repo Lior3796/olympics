@@ -8,12 +8,7 @@ import "./NavBar.css";
 
 function NavBar({position}) {
     const [olympicsEvents,setOlympicsEvents] = useState(''); 
-    const apiMedals = "http://api.espn.com/v1/sports/olympics/medals?dates=2008&season=summer";
-    const getApi = () =>{
-    
-        fetch(apiMedals).then(res => res.json()).then(res => console.log(res));
-    }
-    useEffect(getApi,[])
+
     
     const StyledNav = styled.nav`
     width:100%;

@@ -4,7 +4,7 @@ import AthletesData from './AthletesData';
 function AthletesData() {
     return (
         <div>
-            <AthletesData />
+           
             <NextGames />
             
         </div>
