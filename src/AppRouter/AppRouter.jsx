@@ -34,6 +34,11 @@ function AppRouter() {
 					<Content />
 					<OlympicsData />
 				</Route>
+				<Route path="/olympics" exact>
+					<Home />
+					<Content />
+					<OlympicsData />
+				</Route>
 
 				<Route path="/OlympicData">
 					<Registration />
@@ -43,10 +48,6 @@ function AppRouter() {
 					<FormRegister />
 				</Route>
 				<Footer />
-
-				{/* <Route path="https://lior3796.github.io/olympics/">
-					<Redirect to="https://lior3796.github.io" />
-				</Route> */}
 			</Switch>
 
 			<Footer />
