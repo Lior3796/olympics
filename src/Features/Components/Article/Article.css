@@ -1,5 +1,6 @@
 .StyledArticle{
     box-shadow: 8px 8px 8px rgb(158, 155, 155);
+    margin-bottom: 5px;
     font-family: 'Assistant', sans-serif;
 }
 
@@ -24,4 +25,14 @@
     width:80%;
     margin:auto;
     padding:55px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ArticleContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
 }

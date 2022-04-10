@@ -1,12 +1,14 @@
 import React, { useContext, useEffect, useState } from "react";
-import styled from "styled-components";
 import "./Article.css";
 import { SetArticlesContext } from "../../../Context";
 import MiniArticles from "../MiniArticles/MiniArticles";
 import { motion, AnimatePresence } from "framer-motion";
+import Topics from "../../Components/Topics/Topics";
 
 function Article() {
 	const [images, setImages] = useState();
+	const articlesData = SetArticlesContext();
+
 	const homeVariant = {
 		hidden: {
 			opacity: "-50vw",
@@ -27,17 +29,15 @@ function Article() {
 			.then((res) => res.json())
 			.then((res) => setImages(res));
 	}, []);
-	console.log(images);
 
-	const articlesData = SetArticlesContext();
 	const mapArticlesData = () => {
 		return articlesData.map((obj, key) => {
 			return (
 				<AnimatePresence exitBeforeEnter>
 					<article className="StyledArticle" key={key}>
-						<div style={{ width: "100%" }}>
+						<div>
 							<h5 className="OlympicsLogo">{obj.olympics}</h5>
-							<img src={obj.img} alt="" height="100%" width="100%" />
+							<img src={obj.img} alt="" width="100%" />
 						</div>
 						<p>{obj.header}</p>
 						<h3>{obj.catgory}</h3>
@@ -57,7 +57,8 @@ function Article() {
 			>
 				{mapArticlesData()}
 			</motion.div>
-			<MiniArticles width="100%" height="60%" />
+			<MiniArticles />
+			<Topics />
 		</>
 	);
 }

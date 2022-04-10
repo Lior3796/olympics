@@ -4,9 +4,8 @@ import DailyLinks from "../DailyLinks/DailyLinks";
 function ContainerLinks() {
 	const ContainerLinks = styled.div`
 		position: absolute;
-		top: -8%;
+		bottom: -20px;
 		display: flex;
-		height: 10vh;
 		width: 100%;
 		justify-content: space-around;
 		@media (max-width: 500px) {

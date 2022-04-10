@@ -62,3 +62,17 @@
     font-size: 25px;
     color: white;
 }
+
+@media (max-width:500px) {
+    .Footer-links{
+        display: none;
+    }
+
+    .olympic-info > ul{
+        display: grid;
+        grid-template-columns: 2fr repeat(5,1fr);
+        gap: 10px;
+        padding: 0;
+    }
+    
+}
