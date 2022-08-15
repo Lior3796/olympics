@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
 
 export function HamburgerMenu() {
@@ -14,9 +15,9 @@ export function HamburgerMenu() {
 							<i class="fas fa-bars"></i>
 						</Button>
 						<Menu {...bindMenu(popupState)}>
-							<MenuItem onClick={popupState.close}>Profile</MenuItem>
-							<MenuItem onClick={popupState.close}>My account</MenuItem>
-							<MenuItem onClick={popupState.close}>Logout</MenuItem>
+							<Link to="/OlympicData">
+								<MenuItem onClick={popupState.close}>Olympic</MenuItem>
+							</Link>
 						</Menu>
 					</>
 				)}

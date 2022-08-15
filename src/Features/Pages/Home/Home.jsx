@@ -4,7 +4,6 @@ import NavBar from "../../Components/NavBar/NavBar";
 import { useResponsive } from "../../../Hooks/useResponsive";
 import { HamburgerMenu } from "../../Components/HamburgerMenu/HamburgerMenu";
 import ContainerLinks from "../../Components/ContainerLinks/ContainerLinks";
-
 import styled from "styled-components";
 
 function Home() {
@@ -26,7 +25,6 @@ function Home() {
 	return (
 		<StyledDiv>
 			{width > 600 ? <NavBar position /> : <HamburgerMenu />}
-
 			<HomeCover />
 			<ContainerLinks />
 		</StyledDiv>
